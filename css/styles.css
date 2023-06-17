@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #2E2F42;
-    --secondory-color: #434455; 
-    --primary-background: #E5E5E5;
+    --primary-color: #434455;
+    --secondory-color: #2E2F42; 
+    --primary-background: #FFFFFF;
     --sekondory-background: #2E2F42;
     --btn-hero-background: #4D5AE5;
     --active-color: #404BBF;
@@ -11,6 +11,8 @@
     --btn-menu-color: #4D5AE5;
     --btn-menu-background: #F4F4FD;
     --active-font-color:#ffffff;
+    --logo-font-color:#4d5ae5;
+    --section-team-beckground: #F4F4FD;
 }
 
 body{
@@ -31,12 +33,18 @@ body{
 
 /* ================= HEADER ====================== */
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: var(--primary-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-font-color);
+}
+
+.logo-studio{
+   color: var(--primary-color); 
 }
 
 .logo:hover,
@@ -50,12 +58,16 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color);
+    color: var(--secondory-color);
 }
 
 .menu-item:hover,
 .menu-item:focus {
     color: var(--active-color);
+}
+
+.contact {
+    font-style: normal;
 }
 
 .contact-item {
@@ -64,7 +76,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondory-color);
+    color: var(--primary-color);
 }
 .contact-item:hover,
 .contact-item:focus {
@@ -81,12 +93,13 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--hero-font-color);
 }
 
 .btn-hero{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,12 +120,15 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .section-description{
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--section-description-color);
 }
@@ -122,7 +138,18 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-team {
+    background: var(--section-team-beckground);
+
+}
+
+.team-item{
+    background-color: #FFFFFF;
 }
 
 /* ================= /MAIN ====================== */
