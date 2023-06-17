@@ -157,6 +157,9 @@ body{
 /* ================= /MAIN ====================== */
 
 /* ================= FOOTER ====================== */
+.footer {
+    background-color: var(--sekondory-background);
+}
 .footer-description {
     font-size: 16px;
     line-height: 1.5;
