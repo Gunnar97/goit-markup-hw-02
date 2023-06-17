@@ -44,7 +44,7 @@ body{
 }
 
 .logo-studio{
-   color: var(--primary-color); 
+   color: #2e2f42; 
 }
 
 .logo:hover,
@@ -123,6 +123,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--secondory-color);
 }
 
 .section-description{
@@ -141,6 +142,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--secondory-color);
 }
 
 .section-team {
@@ -160,14 +162,18 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-description-color);
-    background: var(--sekondory-background);
+    background-color: var(--sekondory-background);
+}
+
+.logo-footer{
+    color:#f4f4fd;
 }
 /* ================= /FOOTER =====================FOOTER */
 
 
 /* ================= PORTFOLIO =====================*/
 .btn-menu{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif ;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
