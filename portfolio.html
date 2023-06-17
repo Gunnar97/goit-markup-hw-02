@@ -5,148 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <!-- HEADER -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+        <a class="link logo" href="./index.html">WebStudio</a>
+        <ul class="list">
           <li>
-            <a href="./index.html">Studio</a>
+            <a class="link menu-item" href="./index.html">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a class="link menu-item" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="link menu-item" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="contact">
+        <ul class="list contact-list">
+          <li>
+            <a class="link contact-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link contact-item" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
+      <h1>Portfolio</h1>
       <!-- MENU -->
-      <h1>Menu</h1>
+      <h2>Menu</h2>
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <button type="button">All</button>
+            <button class="btn-menu" type="button">All</button>
           </li>
           <li>
-            <button type="button">Web Site</button>
+            <button class="btn-menu" type="button">Web Site</button>
           </li>
           <li>
-            <button type="button">App</button>
+            <button class="btn-menu" type="button">App</button>
           </li>
           <li>
-            <button type="button">Design</button>
+            <button class="btn-menu" type="button">Design</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button class="btn-menu" type="button">Marketing</button>
           </li>
         </ul>
       </section>
       <!-- WORK EXAMPLES -->
       <section>
-        <h1>Work examples</h1>
-        <ul>
+        <h2>Work examples</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio/banking-app.jpg"
               alt="Examples of mobile banking application pages"
+              width="360"
+              height="300"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h3 class="section-secondary-topic">
+              Banking App Interface Concept
+            </h3>
+            <p class="section-description">App</p>
           </li>
           <li>
             <img
               src="./images/portfolio/cashless-payment.jpg"
               alt="using a smartphone, they scan the QR code from the payment terminal"
+              width="360"
+              height="300"
             />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h3 class="section-secondary-topic">Cashless Payment</h3>
+            <p class="section-description">Marketing</p>
           </li>
           <li>
             <img
               src="./images/portfolio/meditation-app.jpg"
               alt="laptop and smartphone on which the application is open"
+              width="360"
+              height="300"
             />
-            <h2>Meditation App</h2>
-            <p>App</p>
+            <h3 class="section-secondary-topic">Meditation App</h3>
+            <p class="section-description">App</p>
           </li>
           <li>
             <img
               src="./images/portfolio/taxi-service.jpg"
               alt="the inside of the car driver's side, a smartphone with an open application - map is fixed on the windshield"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h3 class="section-secondary-topic">Taxi Service</h3>
+            <p class="section-description">Marketing</p>
           </li>
           <li>
             <img
               src="./images/portfolio/screen-illustrations.jpg"
               alt="a smartphone with an active screen showing wallpaper for the screen on the theme of the month, next to the smartphone are four examples of wallpaper for the screen on the theme of the month"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h3 class="section-secondary-topic">Screen Illustrations</h3>
+            <p class="section-description">Design</p>
           </li>
           <li>
             <img
               src="./images/portfolio/online-courses.jpg"
               alt="smiling girl in a sweater, glasses and a hat who holds a smartphone and headphones in her hands"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h3 class="section-secondary-topic">Online Courses</h3>
+            <p class="section-description">Marketing</p>
           </li>
           <li>
             <img
               src="./images/portfolio/instagram-stories.jpg"
               alt="Instagram stories showing design examples"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h3 class="section-secondary-topic">Instagram Stories Concept</h3>
+            <p class="section-description">Design</p>
           </li>
           <li>
             <img
               src="./images/portfolio/organic-food.jpg"
               alt="a woman in whose hands a ribbon of organic material with bio food"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h3 class="section-secondary-topic">Organic Food</h3>
+            <p class="section-description">Web Site</p>
           </li>
           <li>
             <img
               src="./images/portfolio/fresh-coffee.jpg"
               alt="man pouring cream into a cup of coffee"
-              width="360px"
-              height="300px"
+              width="360"
+              height="300"
             />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h3 class="section-secondary-topic">Fresh Coffee</h3>
+            <p class="section-description">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="link logo" href="./index.html">WebStudio</a>
+      <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
