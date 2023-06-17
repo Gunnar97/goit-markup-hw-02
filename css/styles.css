@@ -165,7 +165,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-description-color);
-    background-color: var(--sekondory-background);
 }
 
 .logo-footer{
